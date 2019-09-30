@@ -64,7 +64,7 @@ export default {
         ":" +
         59),
         // <MM> <DD>, <YYYY> <H>:<M>:<S>
-      endTime: "10 01, 2019 23:18:53",
+      endTime: "",
       times: [
         { id: 0, class_: "days", _class: "timeRefDays", text: "Días", time: 1 },
         {
@@ -133,6 +133,19 @@ export default {
     }
   },
   created: function() {
+    // <MM> <DD>, <YYYY> <H>:<M>:<S>
+    this.endTime = new Date().getUTCMonth() +
+        " " +
+        ((new Date().getUTCDay()) + 1) +
+        ", " +
+        new Date().getUTCFullYear() +
+        " " +
+        23 +
+        ":" +
+        18 +
+        ":" +
+        59,
+        console.log(this.endTime);
     this.updateTimer();
     this.timeinterval = setInterval(this.updateTimer, 1000);
   }
