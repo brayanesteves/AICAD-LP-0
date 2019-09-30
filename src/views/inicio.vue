@@ -64,7 +64,7 @@ export default {
         ":" +
         59),
         // <MM> <DD>, <YYYY> <H>:<M>:<S>
-      endTime: "09 12, 2019 23:18:53",
+      endTime: "10 01, 2019 23:18:53",
       times: [
         { id: 0, class_: "days", _class: "timeRefDays", text: "Días", time: 1 },
         {
