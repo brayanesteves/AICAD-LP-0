@@ -116,7 +116,7 @@ footer .marcas .educacion .no-padding,footer .marcas .patrocinadores .no-padding
 }
 @media only screen and (min-device-width :320px) and (max-device-width :414px) and (-webkit-min-device-pixel-ratio:1){
 
-.content{position:relative;background:url(../../img/home/0-banner-principal-movil.jpeg) no-repeat;background-size:100% 100%;transition-duration:4s;animation-delay:2s}
+.content{position:relative !important;background:url(../../img/home/0-banner-principal-movil.jpeg) no-repeat;background-size:100% 100%;transition-duration:4s;animation-delay:2s}
 
 }
 @media only screen and (device-width :800px) and (orientation:portrait){
